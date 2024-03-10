@@ -24,9 +24,3 @@ In this file you'll find the technical issues related to this assignment and the
 
 2. While testing the assignment bare in mind that all of the keys used for the APIs are free development keys 
     so they are limited by number of calls per second/minute and by number of calls per day (Keys can be found in ".env" file).
-
-There are two ways to run the project:
-
-first one is to clone the project from github and run it using the following commands:
-
-git clone 
