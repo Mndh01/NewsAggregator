@@ -1,0 +1,17 @@
+.ml-2 {
+  margin-left: .3rem !important;
+}
+
+.bg-dark *{
+  color: white;
+}
+
+.bg-dark .navbar-toggler {
+  background-color: white;
+}
+
+@media screen and (min-width: 576px) {
+  .ml-sm-2 {
+    margin-left: .3rem !important;
+  }
+}

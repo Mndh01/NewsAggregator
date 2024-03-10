@@ -1,0 +1,32 @@
+In this file you'll find the technical issues related to this assignment and the workarounds I used to solve them with some notes to bare in mind while evaluating the assignment.
+
+## Technical Issues and workarounds:
+
+1. **Issue** The first two requirments in the assignment are basically the same and if there is a different it was not made clear.
+   **Solution** I combined the first two requirements into one requirement and added filtering as I saw fitting. 
+
+2. **Issue** Most of the resouces mentioned in the assignment are not available in the internet except for three of them.
+   **Solution** I had to use the only existing three resources: 1- NewsApi.org, 2- New York Times API, 3- The Guardian API.
+
+3. **Issue** Only the NewsApi.org supports the filtering of news by the source and it doesn't support mixing this filter with filters like category and country.
+   **Solution** I applied the filtering by source only to NewsApi.org and if this filter was applied by the user,
+                I made it so that it ignores the category filter in order for it to work (otherwise an error will occur in the API).
+
+4. **Issue** The New York Times API and The Guardian API don't support filtering by source.
+    **Solution** I had to use the category filter only for these two APIs.
+
+5. **Issue** The APIs don't provide an endpoint for getting the categories available in the API.
+    **Solution** I had to hardcode some of the shared categories among the APIs (Not all categories apply to all APIs though).
+
+## Notes:
+
+1. For the first issue I could reach out to the HR and ask for clarification on the first two requirements because it was weekend.
+
+2. While testing the assignment bare in mind that all of the keys used for the APIs are free development keys 
+    so they are limited by number of calls per second/minute and by number of calls per day (Keys can be found in ".env" file).
+
+There are two ways to run the project:
+
+first one is to clone the project from github and run it using the following commands:
+
+git clone 
