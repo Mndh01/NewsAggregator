@@ -1,6 +1,8 @@
 ## There are two ways to run the project:
 
--- first one is to clone the project from github and run it using the following commands:
+-- first one is to clone the project from github and run it using the link with the commands below:
+
+git clone https://github.com/Mndh01/NewsAggregator.git
 
 npm install
 
